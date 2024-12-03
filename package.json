@@ -11,7 +11,6 @@
     "preview": "vite preview",
     "predeploy": "vite build",
     "deploy": "vite build && gh-pages -d dist"
-
   },
   "dependencies": {
     "@emotion/react": "^11.13.5",
