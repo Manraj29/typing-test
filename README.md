@@ -74,4 +74,4 @@ cd typing-test-app
 <h3>Performance Chart</h3>
 <img src="https://github.com/user-attachments/assets/1e50c21f-cbd7-4f96-8e48-c15b2ae0d001" alt="results"/>
 <hr>
-<b>Checkout the website: </b> <a href="https://manraj29.github.io/typing-test/">https://manraj29.github.io/typing-test/</a>
+<b>Checkout the website: </b> <a href="https://manraj29.github.io/typing-test/" target="_blank">https://manraj29.github.io/typing-test/</a>
