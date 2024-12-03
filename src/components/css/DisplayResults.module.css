@@ -1,0 +1,32 @@
+.graph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150% !important;
+    height: 150% !important;
+    margin-bottom: 50px;
+    
+}
+.confetti-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;  /* Ensure the confetti container is below the text */
+}
+
+
+@media (max-width: 1024px) {
+    .graph{
+        width: 90% !important;
+        height: 90% !important;
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 768) {
+    .graph{
+        width: 90% !important;
+        height: 90% !important;
+        margin-bottom: 70px;
+    }
+}
