@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGear, faXmark } from "@fortawesome/free-solid-svg-icons";
+import Logo from "../assets/images/favicon.png";
 
 function Navbar({ selectedDifficulty, setSelectedDifficulty, selectedLang, setSelectedLang, testStyle, testValue, testCompleted, totalMistakes, liveWPM, liveAccuracy }) {
 	const [isModalOpen, setIsModalOpen] = useState(false);
@@ -183,6 +184,8 @@ function Navbar({ selectedDifficulty, setSelectedDifficulty, selectedLang, setSe
 					<div className="relative flex h-20 items-center justify-between">
 						<div className="flex flex-1 items-center">
 							<h1 className="text-3xl font-bold">Typing Test</h1>
+							{/* favicon image from public folder here */}
+							<img src={Logo} alt="logo" className="h-10 w-10 ml-2" />
 						</div>
 
 						<div className="flex items-center">

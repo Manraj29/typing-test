@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Navbar from "./Navbar";
 import { useState } from "react";
-import styles from "./css/TypingTest.module.css";
+import styles from "../assets/css/TypingTest.module.css";
 import TypingOptions from "./TypingOptions";
 import TypingArea from "./TypingArea";
 import DisplayResults from "./DisplayResults";

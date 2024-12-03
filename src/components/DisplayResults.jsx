@@ -1,10 +1,9 @@
 import * as React from 'react';
 import { useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
-import styles from './css/DisplayResults.module.css';
+import styles from '../assets/css/DisplayResults.module.css';
 import { FontAwesomeIcon, } from '@fortawesome/react-fontawesome';
 import { faForward } from "@fortawesome/free-solid-svg-icons";
-
 
 function DisplayResults({
     testStyle,
